@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Sing in"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/EtUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSI"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#38ffffff"
+        android:hint="User Id"
+        android:padding="9dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        />
+    <EditText
+        android:id="@+id/EtP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtUI"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#38ffffff"
+        android:hint="Password"
+        android:padding="9dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_password_24"
+        android:drawablePadding="20dp"
+        android:inputType="textPassword"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EtP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:padding="5dp"
+        android:text="LOGIN" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forget password?."
+        android:id="@+id/tvFP"
+        android:layout_below="@+id/btnLI"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Singup"
+        android:layout_below="@+id/tvFP"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:onClick="button"/>
+
+
+</RelativeLayout>

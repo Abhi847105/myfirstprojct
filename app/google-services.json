@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "967784151553",
+    "project_id": "collagetradehub",
+    "storage_bucket": "collagetradehub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967784151553:android:9ca53b65cc1325b9761e00",
+        "android_client_info": {
+          "package_name": "com.example.collagetradehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967784151553-vsq24t2pbqhqkdimp1vl1rcltea1i1o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARvEYwnPceWf716cmNDZ1vts83A_fNTME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967784151553-vsq24t2pbqhqkdimp1vl1rcltea1i1o3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
