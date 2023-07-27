@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openMainActivity() {
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, Home2.class);
         startActivity(intent);
         finish(); // Optional: You can finish the SignInActivity so that pressing back won't go back to it.
     }

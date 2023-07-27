@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/image"
+    android:background="@drawable/image1"
     app:layout_editor_absoluteX="1dp"
     app:layout_editor_absoluteY="1dp">
 
@@ -117,7 +117,7 @@
                                     android:id="@+id/im1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="90dp"
-                                    android:src="@drawable/image" />
+                                    android:src="@drawable/image1" />
 
                                 <TextView
                                     android:id="@+id/tv1"
