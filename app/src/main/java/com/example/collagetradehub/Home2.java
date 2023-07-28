@@ -17,7 +17,7 @@ public class Home2 extends AppCompatActivity {
 
     public void btech(View view) {
 
-        Intent intent=new Intent(Home2.this,Syllabus.class);
+        Intent intent=new Intent(Home2.this,Syllabus1.class);
         startActivity(intent);
     }
 }
