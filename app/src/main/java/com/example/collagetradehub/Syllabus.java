@@ -166,7 +166,7 @@ public class Syllabus extends AppCompatActivity {
 
 
     public void btDAA(View view) {
-        Intent intent= new Intent(Syllabus.this,Data.class);
+        Intent intent= new Intent(Syllabus.this,Notes.class);
         startActivity(intent);
     }
 }

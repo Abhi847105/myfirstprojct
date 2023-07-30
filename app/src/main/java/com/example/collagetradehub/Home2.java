@@ -20,4 +20,10 @@ public class Home2 extends AppCompatActivity {
         Intent intent=new Intent(Home2.this,Syllabus1.class);
         startActivity(intent);
     }
+
+    public void Gate(View view) {
+        Intent intent=new Intent(this, btechModule.class);
+        startActivity(intent);
+    }
+
 }
