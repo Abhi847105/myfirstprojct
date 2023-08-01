@@ -26,4 +26,8 @@ public class Home2 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void java(View view) {
+        Intent intent=new Intent(this,JavaTutorial.class);
+        startActivity(intent);
+    }
 }

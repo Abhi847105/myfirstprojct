@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
     tools:context=".Home2">
 
     <ScrollView
@@ -193,7 +192,8 @@
                                 android:layout_height="match_parent"
                                 android:layout_margin="10dp"
                                 android:layout_toRightOf="@+id/lvi1"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:onClick="java">
 
                                 <de.hdodenhof.circleimageview.CircleImageView
                                     android:id="@+id/civc2"

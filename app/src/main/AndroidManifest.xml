@@ -13,6 +13,13 @@
         android:theme="@style/Theme.CollageTradeHub"
         tools:targetApi="31">
         <activity
+            android:name=".JavaTutorial"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".btechModule"
             android:exported="false">
             <meta-data
