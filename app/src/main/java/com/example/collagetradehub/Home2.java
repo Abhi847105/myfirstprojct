@@ -30,4 +30,9 @@ public class Home2 extends AppCompatActivity {
         Intent intent=new Intent(this,JavaTutorial.class);
         startActivity(intent);
     }
+
+    public void Oops(View view) {
+        Intent intent=new Intent(this,Oops.class);
+        startActivity(intent);
+    }
 }

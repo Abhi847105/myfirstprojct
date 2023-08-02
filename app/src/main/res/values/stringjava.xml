@@ -1,0 +1,14 @@
+
+<resources>
+    <string name="Intoduction">
+        <font color="#196ac9"><b>Introdution of Java</b></font>
+        <font color="#040505"><b>Java\n</b></font>
+        <br>This Language is developed by fems Gosling in 1991. But it comes in use in 1995. This language is developed by <b>SUN Software Company .</b> It is pure object oriented programming language, where for each and every work we Create an Object and declare its method. \n</br>
+        <font color="#FF3F51B5"><b>\nNeed of Java\n</b></font>
+        <br>In the age of 1990 various device is controls by micro - processor , As we know that micro - processor holds some controlling program in that time available programming Language.\n</br>
+        <br> This programming language task more space and perform less work in the system\n</br>
+        <br>To remove this drawback the concept <b>JAVA Programming Language has Come.</b></br>
+    </string>
+
+
+</resources>

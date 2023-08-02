@@ -4,23 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/image1"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:src="@drawable/singin" />
 
     <TextView
         android:id="@+id/tvSI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="200sp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:padding="10dp"
         android:text="Sing in"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="35dp"
         android:textStyle="bold"
         android:inputType="text"/>
@@ -31,14 +37,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvSI"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:background="#38ffffff"
+        android:background="#B3B5B6"
         android:hint="User Id"
         android:padding="9dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
         android:drawablePadding="20dp"
         />
@@ -51,11 +57,11 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:background="#38ffffff"
+        android:background="#B3B5B6"
         android:hint="Password"
         android:padding="9dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:drawableLeft="@drawable/ic_baseline_password_24"
         android:drawablePadding="20dp"
         android:inputType="textPassword"
@@ -74,15 +80,18 @@
         android:backgroundTint="@color/teal_200"
         android:padding="5dp"
         android:text="LOGIN" />
+
     <TextView
+        android:id="@+id/tvFP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="forget password?."
-        android:id="@+id/tvFP"
         android:layout_below="@+id/btnLI"
-        android:textColor="@color/white"
-        android:layout_margin="20dp"
-        />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="forget password?."
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/button"
