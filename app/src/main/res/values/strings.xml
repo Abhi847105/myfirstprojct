@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">CollageTradeHub</string>
     <string name="welcome_to_4th_semester">WELCOME TO COLLAGE HUB</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+
     <string name="button3">Syllabus</string>
     <string name="textView8">hello</string>
     <string name="OperatingSystem">Operating System</string>
@@ -120,4 +123,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="javaT">Start Learning Java Now</string>
+    <string name="header_image">Header Image</string>
+    <string name="hub">Collage Trade HUB</string>
+    <string name="java">Java</string>
+    <string name="html">Html,css,javascript</string>
+    <string name="ad">Android Developing</string>
+    <string name="c">C++</string>
+    <string name="b_tech">B.TECH</string>
+    <string name="gate">GATE</string>
 </resources>

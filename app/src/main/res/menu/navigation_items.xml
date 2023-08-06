@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/java"
+        android:id="@+id/Java"
+        android:icon="@drawable/java"/>
+    <item android:title="@string/c"
+        android:id="@+id/C"
+        android:icon="@drawable/opps"/>
+    <item android:title="@string/html"
+        android:id="@+id/html"
+        android:icon="@drawable/ic_baseline_javascript_24"/>
+    <item android:title="@string/ad"
+        android:id="@+id/ad"
+        android:icon="@drawable/ic_baseline_android_24"/>
+</menu>

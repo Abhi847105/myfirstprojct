@@ -2,13 +2,65 @@
 <resources>
     <string name="Intoduction">
         <font color="#196ac9"><b>Introdution of Java</b></font>
-        <font color="#040505"><b>Java\n</b></font>
+        <font color="#040505"><b>\nJava\n</b></font>
         <br>This Language is developed by fems Gosling in 1991. But it comes in use in 1995. This language is developed by <b>SUN Software Company .</b> It is pure object oriented programming language, where for each and every work we Create an Object and declare its method. \n</br>
         <font color="#FF3F51B5"><b>\nNeed of Java\n</b></font>
         <br>In the age of 1990 various device is controls by micro - processor , As we know that micro - processor holds some controlling program in that time available programming Language.\n</br>
         <br> This programming language task more space and perform less work in the system\n</br>
-        <br>To remove this drawback the concept <b>JAVA Programming Language has Come.</b></br>
+        <br>To remove this drawback the concept <b>JAVA Programming Language has Come.\n</b></br>
+       <font color="#FF3F51B5"><b>\n Feature of Java:-\n</b></font>
+        <br>There are following feature of Java </br>
+        <br>1. Pure Oops Language.\n</br>
+        <br>2. Plate form Independent\n</br>
+        <br>3. Portable\n</br>
+        <br>4. Secured\n</br>
+        <br>5. Compiler and Interpreter based.\n</br>
+        <br>6. Multi - threading\n </br>
+        <br>7. Dynamic Performance\n</br>
+
+        <br><p>\n1.Pure Opp Java :-</p>In the java every work is work is based on object and class. Besides it holds Object - Oriented Programming Feature.\n</br>
+        <br>Abstraction\n</br>
+        <br>Inheritance\n</br>
+        <br>Polymorphism\n</br>
+        <br>Encapsulation\n</br>
+        <br>Dynamic Banding \n</br>
+        <br>Plate - from Independent.\n</br>
+        <br>Java has its own running environment. when we Install Java an Operating System. This Summing Environment \n</br>
+
+
+        <br><b>2. Portable:-</b>Java language based on less coding more work. As a result it can hold small memory do it is Portable.\n</br>
+        <br><b>3. Secured:-</b>In the Java there is no concept of Pointer. Hence we can not access data directly from the system memory. As a result it is secure language.\n</br>
+        <br><b>4. Compiler and Interpreter based :- </b>Basically computer Language is based on under compiler or Interpreter. Java is based on both Compiler and Interpreter. Java compiler Convert Program Instructing into Bytes code and Interpreter convert into mechanical code. \n</br>
+        <br><b>5.Multi - threading :-</b>Threading is an individual process of a large process. this individual process is independent for each other by using java Program, we can create multi-threading a single large program .\n</br>
+        <br><b>6.Dynamic performance :-</b>Java Support Dynamic initialisation of a variable function and class, As a result java is dynamic performance language.\n</br>
     </string>
 
+<string name="working">
+    <b>Working of  Java :-\n </b>
+    <br>Java work on a special  software called JVM(Java Virtual Machine). A JVM is a combination of compiler and Interpreter as a result Java can work any plate- from. \n</br>
+    <br>we give instruction in Java it is consume into two difference steps \n</br>
+    <br>1. Instruction is converted in bytes - code\n</br>
+    <br>2. Bytes code is converted in Machine code\n</br>
 
+
+    <br><b>1. Instruction converted into byte code:-</b>when a java program comes in java run time environment . It is handled by java compiler converted source code (set of instruction ) into Intermediate code(Bytes code). \n</br>
+    <br><b>2. Byte code is converted in Machine code</b>The Output of compiler is consumed by Java Interpreter in Java runtime environment , and its generate machine code for process, which is shows  in the fig.\n</br>
+</string>
+    <string name="Datatypes">
+        <font color="#FF3F51B5"><b>Data Types in Java:-</b></font>
+        <br>Data type defines cast and token space by a data. whenever we define data-type we initially defined its cast.\n</br>
+        <br>It is data-types allow a compiler to reserve a certain space within system memory. In the java language data-type \n</br>
+        <br>1. Primitive data types</br>
+        <br>2. Non - Primitive data types </br>
+
+        <font color="#FF3F51B5"><br>\n1. Primitive or primary  data types\n</br></font>
+        <br>This data type is also fundamental data -type . the data-type which is independent itself and can not be broken into two part is called primitive data types. This data - types is predefine and defined by the developer of java language.\n </br>
+        <br>In the Java Primitive data - type is classified into two part.\n</br>
+        <br>1. Numeric data type \n</br>
+        <br>2. Non - Numeric data type .\n</br>
+        <font color="#FF3F51B5"><br>\n 1. Numeric data type \n</br></font>
+        <br>The data- type which hold some numeric values is called Numeric data type. the value which is hold by this data - type may be Integral or fractional . As a result numeric data type classified into two parts \n. </br>
+        <br>1. Integral data - types \n</br>
+        <br>2. Float Point data type \n</br>
+    </string>
 </resources>
